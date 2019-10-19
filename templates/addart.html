@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Art | ARTLAND</title>
+    <link rel="stylesheet" href="static/css/style.css">
+  </head>
+  <body style="background-image: url('static/images/background.jpg');">
+    <form action="http://127.0.0.1:5000/insertArt" method="POST">
+        <div class="login-box">
+            <h1>Fill up your art details!</h1>
+            <div class="textbox">
+              <i class="fas fa-user"></i>
+              <input type="text" name="art_id" placeholder="Art ID" required>
+            </div>
+          
+            <div class="textbox">
+              <i class="fas fa-lock"></i>
+              <input type="text" name="price" placeholder="Price" required>
+            </div>
+          
+            <input type="submit" class="btn" value="Add Art">
+          </div>
+        </form>
+      </body>
+</html>

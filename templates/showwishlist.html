@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Wishlist | ARTLAND</title>
+    <link rel="stylesheet" href="static/css/style.css">
+  </head>
+  <body>
+    <div class="login-box">
+    <h1>My Wishlist</h1>
+    {% for item in data %}
+    <img class="imageHere" src="static/images/{{ item[0] }}.jpg" alt="sorry friends">
+    <label>Price: {{ item[1] }}/-</label>
+    <br><br><br><br>
+    {% endfor %}
+    </div>
+  	</body>
+</html>
+

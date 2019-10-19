@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>User Profile | ARTLAND</title>
+    <link rel="stylesheet" href="static/css/style.css">
+  </head>
+  <body style="background-image: url('static/images/background.jpg');">
+    <form action="http://127.0.0.1:5000/signIn" method="POST">
+        <div class="login-box">
+            <h1>Hey there!</h1>
+            <div class="textbox">
+              <span>User type: </span>{{ usertype }}
+            </div>
+            <br>
+            <div class="textbox">
+              <span>Name: </span>{{ name }}
+            </div>
+            <br>
+            <div class="textbox">
+              <span>Username: </span>{{ username }}
+            </div>
+            <br>
+            <div class="textbox">
+              <span>Email: </span>{{ email }}
+            </div>
+            <br>
+            <!-- <input type="submit" class="btn" value="Sign in"> -->
+          </div>
+        </form>
+      </body>
+</html>
