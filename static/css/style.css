@@ -8,7 +8,7 @@ body{
   font-family: candara;
   /* background-image: url('static/images/bg-01.jpg'); */
   /* background: url(bg.jpg) no-repeat 50% fixed / cover;  */
-  background: black;
+  background: grey;
   background-size: cover;
 }
 .login-box{
@@ -22,7 +22,7 @@ body{
   /* top: 50%;*/
   transform: translate(-50%); 
   left: 50%;
-  color: black;
+  color: grey;
 }
 .login-box h1{
   font-size: 40px;
@@ -58,7 +58,7 @@ body{
   width: 100%;
   background: none;
   border: 2px solid #4caf50;
-  color: black;
+  color: red;
   padding: 5px;
   font-size: 18px;
   cursor: pointer;
